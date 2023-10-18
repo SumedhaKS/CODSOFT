@@ -1,2 +1,2 @@
 # CODSOFT
-All my progress regarding my internship at CODSOFT.
+Above are the projects related to my intership at CODSOFT.
