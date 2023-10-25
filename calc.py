@@ -1,5 +1,6 @@
-#Functions
+# A Simple Calculator
 
+#Functions
 def add(a,b):
     return int(a)+ int (b)
 
