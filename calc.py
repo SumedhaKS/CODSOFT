@@ -23,7 +23,7 @@ a=input('Enter the first number:')
 b=input('Enter the second number:')
 
 #Selection of the operation
-print("Select the operation to be performed/n")
+print("Select the operation to be performed\n")
 operation=input('1.Addition \n2.Subtraction \n3.Multiplication \n4.Division \n \n')
 
 #Displaying the Output
