@@ -44,10 +44,14 @@ def Clear_all():
 
 #Shows Content in the ListBox
 def list_val():
-    with open('data.txt','r') as f:
-        lines=f.readlines()
-        for line in lines:
-            lx.insert(END, line.strip())
+    try:
+        with open('data.txt','r') as f:
+            lines=f.readlines()
+            for line in lines:
+                lx.insert(END, line.strip())
+    except FileNotFoundError:
+        with open('data.txt', 'w'):
+            pass
 
 #Creating Listbox
 lx=Listbox(root, width=80, borderwidth=4 )
