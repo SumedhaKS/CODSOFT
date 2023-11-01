@@ -53,6 +53,7 @@ def list_val():
         with open('data.txt', 'w'):
             pass
 
+
 #Creating Listbox
 lx=Listbox(root, width=80, borderwidth=4 )
 lx.grid(row=2,column=3)
